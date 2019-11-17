@@ -84,4 +84,4 @@ app.post('/register',(req,res) =>{ register.handleregister(req,res,database,bcry
 // 	}
 // })
 
-app.listen(3001);
+app.listen(process.env.PORT || 3001);
